@@ -18,7 +18,7 @@ interface Task {
   completed: boolean;
 }
 
-const API_URL = 'http://172.20.10.2:3000/api/tasks'; // Thay bằng IP nếu chạy trên thiết bị thật
+const API_URL = 'https://testbackend-94at.onrender.com//api/tasks'; // Thay bằng IP nếu chạy trên thiết bị thật
 
 const TodoList: React.FC = () => {
   const [task, setTask] = useState<string>('');
